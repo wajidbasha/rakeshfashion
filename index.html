@@ -1,0 +1,1631 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Light</title>
+    <a target="_blank" href="https://icons8.com/icon/13912/facebook"></a>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        @font-face {
+            font-family: myfont;
+            src: url(GothamBold.ttf);
+        }
+
+        @font-face {
+            font-family: myfont1;
+            src: url(GothamBoldItalic.ttf);
+        }
+
+        @font-face {
+            font-family: myfont2;
+            src: url(GothamLight.ttf);
+        }
+
+        @font-face {
+            font-family: myfont3;
+            src: url(PalaceScriptMT.ttf);
+        }
+
+        @font-face {
+            font-family: myfont4;
+            src: url(GothamMediumItalic.ttf);
+        }
+
+        @font-face {
+            font-family: myfont5;
+            src: url(GothamBook.ttf);
+        }
+@font-face {
+    font-family: myfont6;
+    src: url(GothamMedium.ttf);
+}
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+    main{
+        width: fit-content;
+        margin: auto;
+    }
+
+        .logo img {
+            height: 80px;
+
+        }
+
+        .header {
+            height: 80px;
+            width: 100%;
+            background-color: black;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+
+        .nav ul {
+            display: flex;
+            font-family: myfont;
+        }
+
+        .icon {
+            display: flex;
+            height: 100%;
+            width: 300px;
+            align-items: center;
+            justify-content: space-evenly;
+
+
+
+        }
+
+        .nav ul li {
+            margin-left: 20px;
+            list-style-type: none;
+
+        }
+
+        .icon .bag img {
+            height: 20px;
+            width: 20px;
+        }
+
+        .icon .heart img {
+            height: 20px;
+            width: 20px;
+        }
+
+        .icon .account img {
+            height: 20px;
+            width: 20px;
+        }
+
+        .header .nav ul li a {
+            text-decoration: none;
+            color: white;
+            margin-left: 10px;
+        }
+
+        .searchicon input {
+            border-radius: 5px;
+            height: 30px;
+            width: 200px;
+        }
+
+        main {
+            background-color: black;
+        }
+
+        main .banner {
+            width: 100%;
+            height: 600px;
+            background-image: url(photos/web\ banner.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+
+        .heading1 {
+            font-family: myfont1;
+            position: absolute;
+            top: 250px;
+            left: 200px;
+        }
+
+        .heading2 {
+            font-family: myfont2;
+            margin-top: 10px;
+            opacity: 90%;
+            font-size: 22px;
+            margin-left: -50px;
+        }
+
+        .bar {
+            position: absolute;
+            height: 1px;
+            width: 460px;
+            background-color: black;
+            left: -30px;
+            opacity: 70%;
+        }
+
+        .heading3 {
+            position: absolute;
+            right: 60px;
+
+        }
+
+        .heading3 img {
+            height: 40px;
+            width: 450px;
+            margin-top: 5px;
+        }
+
+        .tittle1 {
+            font-family: myfont;
+            color: white;
+            text-align: center;
+            width: 100%;
+            height: fit-content;
+            margin-top: 20px;
+        }
+
+        .tittle1 a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .image1 img {
+            width: 380px;
+            height: 480px;
+            position: absolute;
+            top: 10px;
+            left: 50px;
+        }
+
+        .image2 img {
+            width: 330px;
+            height: 210px;
+            position: absolute;
+            left: 320px;
+            top: 30px;
+            z-index: 1;
+        }
+
+        .image3 img {
+            width: 330px;
+            height: 210px;
+            position: absolute;
+            top: 255px;
+            left: 320px;
+
+
+        }
+
+        .left {
+            width: 50%;
+            height: 530px;
+            position: relative;
+            top: 20px;
+        }
+
+        .right {
+            width: 50%;
+
+            position: relative;
+        }
+
+        .main1 {
+            display: flex;
+        }
+
+        .content1 {
+            font-family: myfont3;
+            font-size: 80px;
+            color: #d7d50f;
+            position: absolute;
+            left: 160px;
+
+
+        }
+
+        .content1 h1 {
+            font-weight: lighter;
+        }
+
+        .content2 {
+            font-family: myfont3;
+            font-size: 80px;
+            color: #d7d50f;
+            position: absolute;
+            left: 200px;
+            top: 90px;
+
+        }
+
+        .content2 h1 {
+            font-weight: lighter;
+        }
+
+        .content3 {
+            font-family: myfont2;
+            font-size: 20px;
+            color: white;
+            position: absolute;
+            bottom: 210px;
+            right: 50px;
+        }
+
+        .content3 {
+            width: 80%;
+        }
+
+        .explore {
+            position: absolute;
+            top: 350px;
+            left: 300px;
+            
+        }
+
+        .explore button {
+            padding: 10px 20px 10px 20px;
+            font-family: myfont;
+            font-size: 20px;
+          color: black;
+            align-items: center;
+            border-radius: 5px;
+            
+        }
+        .explore button a{
+            text-decoration: none;
+            color: black;
+        }
+
+        .tittle2 {
+            font-family: myfont;
+            color: white;
+            text-align: center;
+            width: 100%;
+            height: fit-content;
+        }
+
+        .tittle2 a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .card1 {
+            width: 15%;
+            height: 330px;
+            margin-left: 50px;
+        }
+
+        .card1 img {
+            height: 300px;
+        }
+
+        .card1 .cardphoto1 img {
+            border-radius: 10px;
+        }
+
+        .card1 h3 {
+            color: white;
+            font-family: myfont4;
+            text-align: center;
+
+        }
+
+        .card1 a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .card2 {
+            width: 15%;
+            height: 330px;
+
+        }
+
+        .card2 img {
+            height: 300px;
+
+        }
+
+        .card2 .cardphoto2 img {
+            border-radius: 10px;
+        }
+
+        .card2 h3 {
+            color: white;
+            font-family: myfont4;
+            text-align: center;
+        }
+
+        .card2 a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .card3 {
+            width: 15%;
+            height: 330px;
+
+        }
+
+        .card3 img {
+            height: 300px;
+        }
+
+        .card3 .cardphoto3 img {
+            border-radius: 10px;
+        }
+
+
+        .card3 h3 {
+            color: white;
+            font-family: myfont4;
+            text-align: center;
+
+        }
+
+        .card3 a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .card4 {
+            width: 15%;
+            height: 330px;
+            margin-right: 50px;
+
+        }
+
+        .card4 img {
+            height: 300px;
+        }
+
+        .card4 .cardphoto4 img {
+            border-radius: 10px;
+        }
+
+
+        .card4 h3 {
+            color: white;
+            font-family: myfont4;
+            text-align: center;
+        }
+
+        .card4 a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .shop1 {
+            display: flex;
+            width: 100%;
+            justify-content: space-evenly;
+
+        }
+
+        .card5 {
+            width: 15%;
+            height: 330px;
+        }
+
+        .card5 img {
+            height: 300px;
+        }
+
+        .card5 .cardphoto5 img {
+            border-radius: 10px;
+        }
+
+        .card5 h3 {
+            color: white;
+            font-family: myfont4;
+            text-align: center;
+        }
+
+        .card5 a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .card6 {
+            width: 15%;
+            height: 330px;
+
+        }
+
+        .card6 img {
+            height: 300px;
+        }
+
+        .card6 .cardphoto6 img {
+            border-radius: 10px;
+        }
+
+        .card6 h3 {
+            color: white;
+            font-family: myfont4;
+            text-align: center;
+        }
+
+        .card6 a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .card7 {
+            width: 15%;
+            height: 330px;
+
+        }
+
+        .card7 img {
+            height: 300px;
+        }
+
+        .card7 .cardphoto7 img {
+            border-radius: 10px;
+        }
+
+        .card7 h3 {
+            color: white;
+            font-family: myfont4;
+            text-align: center;
+        }
+
+        .card7 a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .shop2 {
+            display: flex;
+            width: 100%;
+            justify-content: space-evenly;
+        }
+
+        .shop1 {
+            margin-top: 20px;
+
+        }
+
+        .shop2 {
+
+            width: 70%;
+            margin: auto;
+            margin-top: 40px;
+        }
+
+        .tittle3 {
+            font-family: myfont;
+            color: white;
+            text-align: center;
+            width: 100%;
+            height: fit-content;
+            margin-top: 20px;
+        }
+
+        .tittle3 a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .buy1 {
+            height: fit-content;
+            width: 25%;
+            background-color: rgb(224, 223, 223);
+            position: relative;
+        }
+
+        .buy1 img {
+            width: 100%;
+
+        }
+
+        .heart1 img {
+            height: 40px;
+            width: 40px;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+
+        }
+
+        .buy1 h4,
+        p,
+        h6 {
+            text-align: center;
+        }
+
+        .buy1 .buy2 .buy3 h4,
+        p {
+            font-family: myfont5;
+        }
+
+        .buy1 h4,
+        p {
+            font-size: 20px;
+        }
+
+        .buy1 h6 {
+            font-family: myfont;
+            font-size: 30px;
+        }
+
+        .buy1 p {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+       .buy1 h4 a 
+        {
+            text-decoration: underline;
+            color: black;
+
+        }
+        
+        .bag1 {
+            height: 30px;
+            width: 30px;
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+        }
+
+        .buy2 h6 {
+            font-family: myfont;
+            font-size: 30px;
+        }
+
+        .buy2 {
+            height: fit-content;
+            width: 25%;
+            background-color: rgb(224, 223, 223);
+            position: relative;
+
+        }
+
+        .buy2 img {
+            width: 100%;
+
+        }
+
+        .buy2 .heart2 {
+            height: 40px;
+            width: 40px;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+
+        .bag2 {
+            height: 30px;
+            width: 30px;
+            position: absolute;
+            bottom: 5px;
+            right: 10px;
+        }
+
+        .buy2 h4,
+        p,
+        h6 {
+            text-align: center;
+        }
+
+        .buy2 h4,
+        p {
+            font-size: 20px;
+        }
+
+        .buy2 p {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .buy2 h4 a 
+        {
+            text-decoration: underline;
+            color: black;
+
+        }
+
+        .buy3 h6 {
+            font-family: myfont;
+            font-size: 30px;
+        }
+
+        .buy3 {
+            height: fit-content;
+            width: 25%;
+            position: relative;
+            background-color: rgb(224, 223, 223);
+        }
+
+        .buy3 img {
+            width: 100%;
+        }
+
+        .buy3 .heart3 {
+            height: 40px;
+            width: 40px;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+
+        .bag3 {
+            height: 30px;
+            width: 30px;
+            position: absolute;
+            bottom: 5px;
+            right: 10px;
+        }
+
+        .buy3 h4,
+        p,
+        h6 {
+            text-align: center;
+        }
+
+        .buy3 h4,
+        p {
+            font-size: 20px;
+        }
+
+        .buy3 p {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .buy3 h4 a 
+        {
+            text-decoration: underline;
+            color: black;
+
+        }
+
+        .trending {
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 30px;
+
+
+        }
+
+        .view1 button {
+            height: 50px;
+            width: 200px;
+            margin-left: 620px;
+            margin-top: 30px;
+            border-radius: 10px;
+            font-family: myfont;
+            font-size: 25px;
+        }
+
+        .tittle4 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .tittle4 a {
+            text-decoration: none;
+            color: white;
+            font-family: myfont;
+        }
+
+        .store1 {
+            height: 300px;
+            width: 30%;
+            background-image: url(photos/Man-Wearing-Gray-Winter-Coat.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+            border-radius: 10px;
+        }
+
+        .store1 h3 {
+            background-color: black;
+            color: white;
+            height: 30px;
+            width: 100%;
+            text-align: center;
+            position: absolute;
+            bottom: 0px;
+            opacity: 40%;
+            font-family: myfont;
+            font-size: 25px;
+        }
+
+        .store2 {
+            height: 300px;
+            width: 30%;
+            background-image: url(photos/smiling-african-friends-walking-outdoors-beach.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 10px;
+            position: relative;
+        }
+
+        .store2 h3 {
+            background-color: black;
+            color: white;
+            height: 30px;
+            width: 100%;
+            text-align: center;
+            position: absolute;
+            bottom: 0px;
+            opacity: 40%;
+            font-family: myfont;
+            font-size: 25px;
+        }
+
+        .store3 {
+            height: 300px;
+            width: 30%;
+            background-image: url(photos/Couple_Outside_1200x628-facebook.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 10px;
+            position: relative;
+        }
+
+        .store3 h3 {
+            background-color: black;
+            color: white;
+            height: 30px;
+            width: 100%;
+            text-align: center;
+            position: absolute;
+            bottom: 0px;
+            opacity: 40%;
+            font-family: myfont;
+            font-size: 25px;
+        }
+
+        .storecollection {
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 30px;
+        }
+
+        .tittle5 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .tittle5 a {
+            text-decoration: none;
+            color: white;
+            font-family: myfont;
+        }
+
+        .store1 h3 {
+            opacity: 60%;
+        }
+
+        .store2 h3 {
+            opacity: 60%;
+        }
+
+        .store3 h3 {
+            opacity: 60%;
+        }
+        .test1
+        {
+            height: 210px;
+            width: 27%;
+            background-color: #f4ebef;
+            position: relative;
+            border-radius: 50px 0px 50px 0px;
+        }
+        .testphoto1 img{
+            height: 110px;
+            width: 28%;
+            border-radius: 80%;
+            position: absolute;
+            left: 70px;
+            top: 30px;
+           
+           
+        }
+        .teststar1 img{
+            height: 90px;
+            width: 25%;
+           position: absolute;
+           right: 60px;
+           top: 35px;
+
+        }
+        .review1
+        {
+            text-align: center;
+            position: absolute;
+          bottom: 10px;
+          font-family: myfont4;
+        }
+        .owner1{
+            position: absolute;
+            bottom: 1px;
+            right: 40px;
+            font-family: myfont4;
+        }
+        .test2
+        {
+            height: 210px;
+            width: 27%;
+            background-color: #f4ebef;
+            position: relative;
+            border-radius: 50px 0px 50px 0px;
+        }
+        .testphoto2 img{
+            height: 110px;
+            width: 28%;
+            border-radius: 80%;
+            position: absolute;
+            left: 70px;
+            top: 30px;
+           
+        }
+        .teststar2 img{
+            height: 90px;
+            width: 25%;
+           position: absolute;
+           right: 60px;
+           top: 35px;
+
+        }
+        .review2
+        {
+            text-align: center;
+            position: absolute;
+          bottom: 10px;
+          font-family: myfont4;
+        }
+        .owner2{
+            position: absolute;
+            bottom: 1px;
+            right: 40px;
+            font-family: myfont4;
+        }
+        .test3
+        {
+            height: 210px;
+            width: 27%;
+            background-color: #f4ebef;
+            position: relative;
+            border-radius: 50px 0px 50px 0px;
+        }
+        .testphoto3 img{
+            height: 110px;
+            width: 28%;
+            border-radius: 80%;
+            position: absolute;
+            left: 70px;
+            top: 30px;
+           
+        }
+        .teststar3 img{
+            height: 90px;
+            width: 25%;
+           position: absolute;
+           right: 60px;
+           top: 35px;
+
+        }
+        .review3
+        {
+            text-align: center;
+            position: absolute;
+          bottom: 10px;
+          font-family: myfont4;
+        }
+        .owner3{
+            position: absolute;
+            bottom: 1px;
+            right: 40px;
+            font-family: myfont4;
+        }
+        .testimonals{
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 20px;
+            padding-bottom: 30px;
+          
+        }
+        .footer
+        {
+            background-color: #e8e8e8;
+            height: 350px;
+            width: 100%;
+            position: relative;
+        }
+        .footerlogo img
+        {
+            height: 150px;
+            width: 150px;
+            position: absolute;
+            top: 0px;
+            left: 100px;
+        }
+        .Socialicon img
+        {
+            height: 50px;
+            width: 50px;
+           
+        }
+        .playstore1
+        {
+            position: absolute;
+            left: 600px;
+            top: 150px;
+        }
+        .playstore2
+        {
+            position: absolute;
+            left: 770px;
+            top: 150px;
+        }
+        .fb {
+            position: absolute;
+           left: 600px;
+           top: 40px;
+        }
+        .insta
+        {
+            position: absolute;
+           left: 680px;
+           top: 40px;
+        }
+        .twitter
+        {
+            position: absolute;
+            right: 670px;
+            top: 40px;
+        }
+        .pinterest
+        {
+            position: absolute;
+            right: 600px;
+            top: 40px;
+        }
+        .playstore img
+        {
+            height: 50px;
+            width: 140px;
+           
+        }
+        .footer1
+        {
+            font-family: myfont;
+            font-size: 20px;
+            position: absolute;
+            left: 100px;
+            top: 170px;
+        }
+        .footer1 h5
+        {
+            padding-bottom: 15px;
+        }
+        .footer2
+        {
+            font-family: myfont;
+            font-size: 20px;
+            position: absolute;
+            left: 280px;
+            top: 170px;
+        }
+        .footer2 h5
+        {
+            padding-bottom: 15px;
+        }
+        .sign
+        {
+            font-family: myfont;
+            font-size: 20px;
+            position: absolute;
+            right: 0px;
+            top: 100px;
+        }
+        .signbox input
+        {
+            height: 60px;
+            width: 400px;
+            position: absolute;
+            right: 20px;
+            top: 170px;
+       
+            
+        }
+        .mailbox img
+        {
+            height: 40px;
+            width: 40px;
+            position: absolute;
+            right: 30px;
+            top: 182px ;  
+        }
+        .rights
+        {
+            font-family: myfont2;
+            position: absolute;
+            top: 280px;
+            right: 400px;
+
+        }
+        .mini{
+            border: black 1px solid;
+            border-radius: 5px;
+            width: 5px;
+            height: 300px;
+            animation-name: circle;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+            animation-direction:alternate-reverse;
+        }
+        .mini2{
+            border: black 1px solid;
+            border-radius: 5px;
+            width: 300px;
+            height: 5px;
+            animation-name: circle;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+            animation-direction: alternate-reverse;
+            margin-right: 100px;
+        }
+        .loader{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+           width: 100%;
+           height: 100vh;
+           background-color: whitesmoke;
+           transition: all;
+           transition-duration: 2s;
+        }
+        .menubar i{
+            color: white;
+           display: none;
+    
+        }
+        @keyframes circle{
+            from{
+                width: 0px;
+                height: 50px;
+                border-radius: 5px;
+                transform:rotate(0deg);
+            }
+            to{
+                width: 0px;
+                height: 50px;
+                border-radius: 5px;
+                transform:rotate(360deg);
+            }
+        }
+        .change
+        {
+            display: none;
+            opacity: 0;
+        }
+      
+
+        @media screen and (max-width:500px) {
+            .header {
+            height: 80px;
+            width: 100%;
+            background-color: black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+        .nav{
+            display: none;
+        }
+        .header .nav ul li a {
+            text-decoration: none;
+            color: white;
+            margin-left: 10px;
+        }
+        .nav ul {
+            display: flex;
+            font-family: myfont;
+            width: 50%;
+            display: none;
+        }
+        .icon {
+            display: flex;
+            height: 100%;
+            width: 30%;
+            align-items: center;
+            justify-content: space-evenly;
+            display: none;
+
+
+        }
+
+        .nav ul li {
+            margin-left: 20px;
+            list-style-type: none;
+
+        }
+
+        .icon .bag img {
+            height: 20px;
+            width: 20px;
+        }
+
+        .icon .heart img {
+            height: 20px;
+            width: 20px;
+        }
+
+        .icon .account img {
+            height: 20px;
+            width: 20px;
+        }
+
+        .searchicon input {
+            border-radius: 5px;
+            height: 30px;
+            width: 200px;
+            display: none;
+        }
+        .menubar i{
+            color: white;
+           display: block;
+    
+        }
+        .tittle1 {
+            font-family: myfont;
+            color: white;
+            text-align: center;
+            width: 100vw;
+            height: fit-content;
+            margin-top: 20px;
+            font-size: 0.7rem;
+        }
+
+        .tittle1 a {
+            text-decoration: none;
+            color: white;
+        }
+        .main1 {
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+        }
+        .image1 img {
+            width: 50%;
+            height: 300px;
+            position: absolute;
+            top: 10px;
+            left: 50px;
+        }
+
+        .image2 img {
+            width: 40%;
+            height: 100px;
+            position: absolute;
+            left: 180px;
+            top: 30px;
+            z-index: 1;
+        }
+
+        .image3 img {
+            width: 40%;
+            height: 100px;
+            position: absolute;
+            top: 170px;
+            left: 180px;
+
+
+        }
+
+        .left {
+            width: 100%;
+            height: 530px;
+            position: relative;
+            top: 20px;
+        }
+
+        .right {
+            width: 50%;
+
+            position: relative;
+        }
+
+
+        .content1 {
+            font-family: myfont3;
+            font-size: 3rem;
+            color: #d7d50f;
+            position: absolute;
+            bottom: 60px;
+            left: 50px;
+            font-size: 2.6rem;
+
+        }
+
+        .content1 h1 {
+            font-weight: lighter;
+        }
+
+        .content2 {
+            font-family: myfont3;
+            font-size: 3rem;
+            color: #d7d50f;
+            position: absolute;
+           top: -60px;
+           left: 60px;
+           font-size: 2.6rem;
+
+        }
+
+        .content2 h1 {
+            font-weight: lighter;
+        }
+
+        .content3 {
+            font-family: myfont2;
+            font-size: 20px;
+            color: white;
+            position: absolute;
+            bottom: 210px;
+            right: 50px;
+        }
+
+        .content3 {
+            width: 80%;
+        }
+        .explore {
+            position: absolute;
+            top: 350px;
+            left: 300px;
+            
+        }
+
+        .explore button {
+            padding: 10px 20px 10px 20px;
+            font-family: myfont;
+            font-size: 20px;
+          color: black;
+            align-items: center;
+            border-radius: 5px;
+            
+        }
+        .explore button a{
+            text-decoration: none;
+            color: black;
+        }
+       
+        }
+
+
+            </style>
+</head>
+
+<body>
+    <div class="loader" id="pre">
+        <div class="mini">
+
+        </div>
+        <div class="mini2"></div>
+    </div>
+    <div class="header">
+        <div class="logo">
+            <a href="#">
+                <img src="C:\Users\Rakesh Arunachalam\Documents\Anntaylor\Assests\photos\logo.png"></a>
+
+        </div>
+        <div class="menubar">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="#">CATEGORIES</a></li>
+                <li><a href="#">BRANDS</a></li>
+                <li><a href="#">EOSS SALE</a></li>
+                <li><a href="#">WEDDING</a></li>
+                <li><a href="#">MADE FOR YOU</a></li>
+            </ul>
+        </div>
+        <div class="icon">
+            <div class="searchicon">
+                <p><input type="text" placeholder="what are you looking for?" required></p>
+            </div>
+            <div class="bag">
+                <a href="#"><img src="C:\Users\Rakesh Arunachalam\Documents\Anntaylor\Assests\photos\bagicon.png"></a>
+            </div>
+            <div class="heart">
+                <a href="#"> <img src="C:\Users\Rakesh Arunachalam\Documents\Anntaylor\Assests\photos\heart1.png"></a>
+            </div>
+            <div class="account">
+                <a href="#"> <img
+                        src="C:\Users\Rakesh Arunachalam\Documents\Anntaylor\Assests\photos\account logo.png"></a>
+            </div>
+        </div>
+
+    </div>
+    <main>
+        <div class="banner">
+            <div class="heading1">
+                <h1> END OF SEASON SALE</h1>
+                <div class="bar"></div>
+                <div class="heading2">
+                    <h3>UPTO 40% DISCOUNT ON TOP BRANDS</h3>
+                </div>
+                <div class="heading3">
+                    <img src="photos/brand logo.png">
+                </div>
+
+
+            </div>
+        </div>
+        <div class="tittle1">
+            <h1><a href="#"> EXCLUSIVE ON STAR LIGHT</a></h1>
+        </div>
+        <div class="main1">
+            <div class="left">
+                <div class="image1">
+                    <img src="photos/card photo1.jpg">
+                </div>
+                <div class="image2">
+                    <img src="photos/banner1.jpg">
+                </div>
+                <div class="image3">
+                    <img src="photos/Untitled-2.jpg">
+                </div>
+            </div>
+            <div class="right">
+                <div class="content1">
+                    <h1>Made</h1>
+                </div>
+                <div class="content2">
+                    <h1> for you</h1>
+                </div>
+                <div class="content3">
+                    <p>A one of it’s kind online service where you can
+                        personalize and customize your casual attires
+                        in DIY formart. Do check out our new section
+                        for men’s custom jeans.</p>
+                </div>
+                <div class="explore">
+                    <button><a href="#">  Explore ></a></button>
+                </div>
+
+            </div>
+        </div>
+        <div class="tittle2">
+            <h1><a href="#"> SHOP BY CATERGORIES</a></h1>
+        </div>
+        <div class="shop">
+            <div class="shop1">
+                <div class="card1">
+                    <div class="cardphoto1">
+                        <img src="photos/types-of-shirts-for-men-bewakoof-blog-9-1610963791.jpg">
+                    </div>
+                    <h3><a href="#"> Shirts</a></h3>
+                </div>
+                <div class="card2">
+                    <div class="cardphoto2">
+                        <img src="photos/photo-1617137968427-85924c800a22.jpg">
+                    </div>
+                    <h3><a href="#"> Suits</h3></a>
+                </div>
+                <div class="card3">
+                    <div class="cardphoto3">
+                        <img src="photos/ad1d591d881cd40b417f2a281ae43ed2.jpg">
+                    </div>
+                    <h3><a href="#"> T-shirts</h3></a>
+                </div>
+                <div class="card4">
+                    <div class="cardphoto4">
+                        <img src="photos/photo-1605192554106-d549b1b975cd.jpg">
+                    </div>
+                    <h3><a href="#"> Jeans</h3></a>
+                </div>
+            </div>
+            <div class="shop2">
+                <div class="card5">
+                    <div class="cardphoto5">
+                        <img src="photos/770f304b162a99eeeec84017fdc092d4.jpg">
+                        <h3><a href="#"> Shorts</h3></a>
+                    </div>
+                </div>
+                <div class="card6">
+                    <div class="cardphoto6">
+                        <img src="photos/pastel-green.jpg">
+                    </div>
+                    <h3><a href="#"> Ethinic wear</h3></a>
+                </div>
+                <div class="card7">
+                    <div class="cardphoto7">
+                        <img src="photos/Men-accessories.jpg">
+                    </div>
+                    <h3><a href="#"> Accessories</h3></a>
+                </div>
+
+            </div>
+        </div>
+        <div class="tittle3">
+            <h1> <a href="#"> TRENDING PRODUCTS</a> </h1>
+        </div>
+        <div class="trending">
+            <div class="buy1">
+                <img src="photos/71tnG67+KhL._UY879_.jpg">
+                <div class="heart1">
+                    <img src="photos/icons8-like-67.jpg">
+                </div>
+                <h4> <a href="#"> ETHINIC WEAR </a>  </h4>
+                <P>Men tailored white waist coat</P>
+                <h6>₹1995</h6>
+                <div class="bag1">
+                    <img src="photos/icons8-add-to-cart-48.png">
+                </div>
+            </div>
+            <div class="buy2">
+                <img src="photos/71GOorH-KML._UY879_.jpg">
+                <div class="heart2">
+                    <img src="photos/icons8-like-67.jpg">
+                </div>
+                <h4> <a href="#">  BLAZER CASUAL  </a></h4>
+                <P>Men tailored blue blazer casual</P>
+                <h6>₹3999</h6>
+                <div class="bag2">
+                    <img src="photos/icons8-add-to-cart-48.png">
+                </div>
+            </div>
+            <div class="buy3">
+                <img src="photos/71W6gFYHSfL._SX679._SX._UX._SY._UY_.jpg">
+                <div class="heart3">
+                    <img src="photos/icons8-like-67.jpg">
+                </div>
+                <h4> <a href="#">   U.S POLOT T-SHIRT  </a></h4>
+                <P>Regular fit Men's T-shirt Yellow</P>
+                <h6>₹1199</h6>
+                <div class="bag3">
+                    <img src="photos/icons8-add-to-cart-48.png">
+                </div>
+            </div>
+        </div>
+        <div class="view1">
+            <button>VIEW ALL</button>
+        </div>
+        <div class="tittle4">
+            <h1>
+                <a href="#"> EXCLUSIVE OUR STORE COLLECTIONS</a>
+            </h1>
+        </div>
+        <div class="storecollection">
+            <div class="store1">
+                <h3>WINTER</h3>
+            </div>
+            <div class="store2">
+                <h3>WEEKEND</h3>
+            </div>
+            <div class="store3">
+                <h3>CASUALS</h3>
+            </div>
+        </div>
+        <div class="tittle5">
+            <h1> <a href="#"> TESTIMONAL</a></h1>
+        </div>
+        <div class="testimonals">
+                    <div class="test1">
+            <div class="testphoto1">
+            <img src="photos/portrait-young-stylish-indian-man-model-pose-street-against-suv-car.jpg"></div>
+            <div class="teststar1">
+                <img src="photos/rating.jpg">
+            </div>
+            <div class="review1">
+                <h4>“Easy to order in comfort of your home, good selection and quick delivery” </h4>    
+            </div>
+            <div class="owner1">
+                <h4> -Vivek</h4>
+            </div>
+        </div>
+        <div class="test2">
+            <div class="testphoto2">
+            <img src="photos/stylish-indian-beard-man-sunglasses-pink-tshirt-india-model-posed-outdoor-streets-city.jpg"></div>
+            <div class="teststar2">
+                <img src="photos/rating.jpg">
+            </div>
+            <div class="review2">
+                <h4>“Fast delivery well packaged my first order Good payment options”
+                </h4>    
+            </div>
+            <div class="owner2">
+                <h4> -Francis</h4>
+            </div>
+        </div>
+        <div class="test3">
+            <div class="testphoto3">
+            <img src="photos/portrait-indian-man-coat-typing-message-phone-city-street.jpg"></div>
+            <div class="teststar3">
+                <img src="photos/rating.jpg">
+            </div>
+            <div class="review3">
+                <h4>“Always got what I'm
+                    looking for reliable and 
+                   fast delivery”
+                </h4>    
+            </div>
+            <div class="owner2">
+                <h4> -Feroz</h4>
+            </div>
+        </div>
+    </div>
+
+    </main>
+    <div class="footer">
+
+        <div class="footerlogo">
+            <img src="photos/logo2.png">
+        </div>
+
+        <div class="footer1">
+            <h5>PRIVACY POLICY</h5>
+            <h5>TERMOF USE</h5>
+            <h5>RETURN POLICY</h5>
+            <h5>OFFERS T&CS</h5>
+            <h5>LOCATE A STORE</h5>
+
+
+        </div>
+        <div class="footer2">
+            <h5>CORPORATE INFORMATION</h5>
+            <h5>CONTACT US</h5>
+            <h5>FAQS</h5>
+            <h5>BOOK A STYLIST</h5>
+            <h5>SITE MAP</h5>
+        
+        </div>
+        <div class="Socialicon">
+            <div class="fb">  <img src="photos/facebook.png"></div>
+           <div class="insta">  <img src="photos/instagram.png"></div>
+           <div class="twitter">  <img src="photos/twitter.png"></div>
+           <div class="pinterest">  <img src="photos/pinterest.png"></div>
+        </div>
+        <div class="playstore">
+           <div class="playstore1">  <img src="photos/playstore.jpg"></div>
+           <div class="playstore2">  <img src="photos/Aapple.jpg"> </div>
+        </div>
+        <div class="sign">
+            <h3>SIGNUP AND NEVER MISS OUT</h3>
+            <h3>GET THE LATEST FROM STARLIGHT</h3>
+        </div>
+        <div class="signbox">
+            <input type="text" placeholder="Enter you E-Mail Address" required>
+        </div>
+        <div class="mailbox">
+            <img src="photos/email.jpg">
+        </div>
+        <div class="rights">
+            <p> © 2022 Rakesh International Industries, Incorporated. <br>All rights reserved.</p></div>
+
+
+    </div>
+</body>
+<script>
+    document.body.onload=()=>
+    {
+        setTimeout(function() 
+        {
+            let pre = document.getElementById("pre");
+            pre.classList.add("change");
+        },3000)
+    }
+</script>
+
+</html>
